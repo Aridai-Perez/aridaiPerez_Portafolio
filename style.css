@@ -108,6 +108,26 @@ nav ul li {
     background-color: #EF9595;
     opacity: 0.7;
 }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #EBEF95;
+}
+
 h3 {
     color: rgb(238, 214, 255);
 }
@@ -131,8 +151,4 @@ img:hover {
     font-size: 1.2em;
     text-decoration: underline;
     cursor: url('./imagenes/hoja-click.png'), auto;
-}
-
-.u-list {
-    list-style-type:circle
 }
